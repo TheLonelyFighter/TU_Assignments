@@ -1,0 +1,1 @@
+I've written a lexer that reads RTSL code (based on GLSL) and outputs tokens using flex. The hard part was writing the regex expressions that deal with differentiating tokens (identifiers, keywords, operators etc.). The lexer was further used to write a parser with bison.
