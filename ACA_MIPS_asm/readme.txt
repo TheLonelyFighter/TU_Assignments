@@ -1,1 +1,1 @@
-
+Together with my team members, we translated the smooth.c file (implementing a simple smoothind data algorithm for a one dimensional array) into MIPS64 assembly. After optimising the assembly code, we achieved a CPI of 1.15.
