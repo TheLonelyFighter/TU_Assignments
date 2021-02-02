@@ -1,0 +1,109 @@
+/* 
+  A primitive shader implementing a sphere object.
+*/
+
+
+int sum += 27;
+value >>= 3;
+if (test == 5) test |= 7;
+
+
+
+
+
+
+float special = 2.0LF;
+float weird = -1.3L;
+float mda = +4.5f;
+float inca_ceva = -1E-5lf;
+
+int  a = 0xffffffff;  // 32 bits, a gets the value -1
+int  b = 0xffffffffU; // ERROR: can't convert uint to int
+uint c = 0xffffffff;  // 32 bits, c gets the value 0xFFFFFFFF
+uint d = 0xffffffffU; // 32 bits, d gets the value 0xFFFFFFFF
+int  e = -1;          // the literal is “1”, then negation is performed,                      //   and the resulting non-literal 32-bit signed                       //   bit pattern of 0xFFFFFFFF is assigned, giving e                       //   the value of -1.u
+int f = -1u;         // the literal is “1u”, then negation is performed,                      //   and the resulting non-literal 32-bit unsigned                       //   bit pattern of 0xFFFFFFFF is assigned, giving f                       //   the value of 0xFFFFFFFF.
+int  g = 3000000000;  // a signed decimal literal taking 32 bits,                      //   setting the sign bit, g gets -1294967296
+int  h = 0xA0000000;  // okay, 32-bit signed hexadecimalint  i = 5000000000;  // ERROR: needs more than 32 bitsint  j = 0xFFFFFFFFF; // ERROR: needs more than 32 bits
+int  k = 0x80000000;  // k gets -2147483648 == 0x80000000int  l = 2147483648;  // l gets -2147483648 (the literal set the sign bit)
+
+
+int normal = 123;
+int normal_u = 123u;
+int nromal_U = 123U;
+int hexa = 0x123Au;
+int hexa_again = 0xAu;
+int octal = 0123u;
+int octal_too = 000001U;
+int neg_int = -00100u;
+float neg_float = -001.23;
+int a = -1u;
+float b = 1.0;
+float c = -3.14;
+float d = +3.;
+float e = -.14;
+float f = 1.1e10;
+float g = -1E-5;
+
+vec3 ceva[100];
+dvec4 pizda_masii[100];
+mat3x4 matrice[90][32];
+dmat3x5 matrice2[90][32];
+dmat4 matrice3[3][3];
+
+
+bool prop = true;
+bool another_prop = false;
+prop = 1;
+bool some = 0;
+
+
+
+
+class Sphere : rt_Primitive;
+
+public vec3 center;
+public float radius;
+
+void constructor(vec3 newcenter,float newradius) {
+  center = newcenter;
+  radius = newradius;
+}
+
+int blabla[100];
+//this is a single line comment;
+
+
+bool boolean_variable1 = (true);
+bool boolean_variable2 = false;
+
+
+
+
+void intersect() {
+  vec3 O = rt_RayOrigin - center;
+  vec3 D = rt_RayDirection;
+  float A = dot(D, D);
+  float B = dot(O, D);
+  float C = dot(O, O) - radius*radius;
+  float disc = B*B-A*C;
+  if(disc > 0.0){
+    float r = sqrt(disc);
+    float t0 = -(r+B)/A;
+    if(t0 > rt_Epsilon){
+      hit(t0);
+    } else {
+      float t1 = (r-B)/A;
+      hit(t1);
+    }
+  }
+}
+
+void computeNormal() {
+  rt_GeometricNormal = (rt_HitPoint - center)/radius;
+}
+
+void computeBounds() {
+  rt_BoundMin = center - vec3(radius);
+  rt_BoundMax = center + vec3(radius);
+}

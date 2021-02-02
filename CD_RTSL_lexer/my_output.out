@@ -1,0 +1,428 @@
+Line  6:    TYPE [float]
+Line  6:    IDENTIFIER [special]
+Line  6:    "="
+Line  6:    FLOAT [2.000000]
+Line  6:    ";"
+Line  7:    TYPE [float]
+Line  7:    IDENTIFIER [weird]
+Line  7:    "="
+Line  7:    "-"
+Line  7:    FLOAT [1.300000]
+Line  7:    ";"
+Line  8:    TYPE [float]
+Line  8:    IDENTIFIER [mda]
+Line  8:    "="
+Line  8:    "+"
+Line  8:    FLOAT [4.500000]
+Line  8:    ";"
+Line  9:    TYPE [float]
+Line  9:    IDENTIFIER [inca_ceva]
+Line  9:    "="
+Line  9:    "-"
+Line  9:    FLOAT [0.000010]
+Line  9:    ";"
+Line 17:    TYPE [int]
+Line 17:    IDENTIFIER [a]
+Line 17:    "="
+Line 17:    INT [-1]
+Line 17:    ";"
+Line 18:    TYPE [int]
+Line 18:    IDENTIFIER [b]
+Line 18:    "="
+Line 18:    INT [-1]
+Line 18:    ";"
+Line 19:    TYPE [uint]
+Line 19:    IDENTIFIER [c]
+Line 19:    "="
+Line 19:    INT [-1]
+Line 19:    ";"
+Line 20:    TYPE [uint]
+Line 20:    IDENTIFIER [d]
+Line 20:    "="
+Line 20:    INT [-1]
+Line 20:    ";"
+Line 21:    TYPE [int]
+Line 21:    IDENTIFIER [e]
+Line 21:    "="
+Line 21:    "-"
+Line 21:    INT [1]
+Line 21:    ";"
+Line 22:    TYPE [int]
+Line 22:    IDENTIFIER [f]
+Line 22:    "="
+Line 22:    "-"
+Line 22:    INT [1]
+Line 22:    ";"
+Line 23:    TYPE [int]
+Line 23:    IDENTIFIER [g]
+Line 23:    "="
+Line 23:    INT [-1294967296]
+Line 23:    ";"
+Line 24:    TYPE [int]
+Line 24:    IDENTIFIER [h]
+Line 24:    "="
+Line 24:    INT [-1610612736]
+Line 24:    ";"
+Line 25:    TYPE [int]
+Line 25:    IDENTIFIER [k]
+Line 25:    "="
+Line 25:    INT [-2147483648]
+Line 25:    ";"
+Line 28:    TYPE [int]
+Line 28:    IDENTIFIER [normal]
+Line 28:    "="
+Line 28:    INT [123]
+Line 28:    ";"
+Line 29:    TYPE [int]
+Line 29:    IDENTIFIER [normal_u]
+Line 29:    "="
+Line 29:    INT [123]
+Line 29:    ";"
+Line 30:    TYPE [int]
+Line 30:    IDENTIFIER [nromal_U]
+Line 30:    "="
+Line 30:    INT [123]
+Line 30:    ";"
+Line 31:    TYPE [int]
+Line 31:    IDENTIFIER [hexa]
+Line 31:    "="
+Line 31:    INT [4666]
+Line 31:    ";"
+Line 32:    TYPE [int]
+Line 32:    IDENTIFIER [hexa_again]
+Line 32:    "="
+Line 32:    INT [10]
+Line 32:    ";"
+Line 33:    TYPE [int]
+Line 33:    IDENTIFIER [octal]
+Line 33:    "="
+Line 33:    INT [83]
+Line 33:    ";"
+Line 34:    TYPE [int]
+Line 34:    IDENTIFIER [octal_too]
+Line 34:    "="
+Line 34:    INT [1]
+Line 34:    ";"
+Line 35:    TYPE [int]
+Line 35:    IDENTIFIER [neg_int]
+Line 35:    "="
+Line 35:    "-"
+Line 35:    INT [64]
+Line 35:    ";"
+Line 36:    TYPE [float]
+Line 36:    IDENTIFIER [neg_float]
+Line 36:    "="
+Line 36:    "-"
+Line 36:    FLOAT [1.230000]
+Line 36:    ";"
+Line 37:    TYPE [int]
+Line 37:    IDENTIFIER [a]
+Line 37:    "="
+Line 37:    "-"
+Line 37:    INT [1]
+Line 37:    ";"
+Line 38:    TYPE [float]
+Line 38:    IDENTIFIER [b]
+Line 38:    "="
+Line 38:    FLOAT [1.000000]
+Line 38:    ";"
+Line 39:    TYPE [float]
+Line 39:    IDENTIFIER [c]
+Line 39:    "="
+Line 39:    "-"
+Line 39:    FLOAT [3.140000]
+Line 39:    ";"
+Line 40:    TYPE [float]
+Line 40:    IDENTIFIER [d]
+Line 40:    "="
+Line 40:    "+"
+Line 40:    FLOAT [3.000000]
+Line 40:    ";"
+Line 41:    TYPE [float]
+Line 41:    IDENTIFIER [e]
+Line 41:    "="
+Line 41:    "-"
+Line 41:    FLOAT [0.140000]
+Line 41:    ";"
+Line 42:    TYPE [float]
+Line 42:    IDENTIFIER [f]
+Line 42:    "="
+Line 42:    FLOAT [11000000000.000000]
+Line 42:    ";"
+Line 43:    TYPE [float]
+Line 43:    IDENTIFIER [g]
+Line 43:    "="
+Line 43:    "-"
+Line 43:    FLOAT [0.000010]
+Line 43:    ";"
+Line 45:    TYPE [vec3]
+Line 45:    IDENTIFIER [ceva]
+Line 45:    "["
+Line 45:    INT [100]
+Line 45:    "]"
+Line 45:    ";"
+Line 46:    TYPE [dvec4]
+Line 46:    IDENTIFIER [pizda_masii]
+Line 46:    "["
+Line 46:    INT [100]
+Line 46:    "]"
+Line 46:    ";"
+Line 47:    TYPE [mat3x4]
+Line 47:    IDENTIFIER [matrice]
+Line 47:    "["
+Line 47:    INT [90]
+Line 47:    "]"
+Line 47:    "["
+Line 47:    INT [32]
+Line 47:    "]"
+Line 47:    ";"
+Line 48:    IDENTIFIER [dmat3x5]
+Line 48:    IDENTIFIER [matrice2]
+Line 48:    "["
+Line 48:    INT [90]
+Line 48:    "]"
+Line 48:    "["
+Line 48:    INT [32]
+Line 48:    "]"
+Line 48:    ";"
+Line 49:    TYPE [dmat4]
+Line 49:    IDENTIFIER [matrice3]
+Line 49:    "["
+Line 49:    INT [3]
+Line 49:    "]"
+Line 49:    "["
+Line 49:    INT [3]
+Line 49:    "]"
+Line 49:    ";"
+Line 52:    TYPE [bool]
+Line 52:    IDENTIFIER [prop]
+Line 52:    "="
+Line 52:    BOOL [true]
+Line 52:    ";"
+Line 53:    TYPE [bool]
+Line 53:    IDENTIFIER [another_prop]
+Line 53:    "="
+Line 53:    BOOL [false]
+Line 53:    ";"
+Line 54:    IDENTIFIER [prop]
+Line 54:    "="
+Line 54:    INT [1]
+Line 54:    ";"
+Line 55:    TYPE [bool]
+Line 55:    IDENTIFIER [some]
+Line 55:    "="
+Line 55:    INT [0]
+Line 55:    ";"
+Line 60:    CLASS
+Line 60:    IDENTIFIER [Sphere]
+Line 60:    ":"
+Line 60:    RT_PRIMITIVE
+Line 60:    ";"
+Line 62:    PUBLIC
+Line 62:    TYPE [vec3]
+Line 62:    IDENTIFIER [center]
+Line 62:    ";"
+Line 63:    PUBLIC
+Line 63:    TYPE [float]
+Line 63:    IDENTIFIER [radius]
+Line 63:    ";"
+Line 65:    TYPE [void]
+Line 65:    IDENTIFIER [constructor]
+Line 65:    "("
+Line 65:    TYPE [vec3]
+Line 65:    IDENTIFIER [newcenter]
+Line 65:    ","
+Line 65:    TYPE [float]
+Line 65:    IDENTIFIER [newradius]
+Line 65:    ")"
+Line 65:    "{"
+Line 66:    IDENTIFIER [center]
+Line 66:    "="
+Line 66:    IDENTIFIER [newcenter]
+Line 66:    ";"
+Line 67:    IDENTIFIER [radius]
+Line 67:    "="
+Line 67:    IDENTIFIER [newradius]
+Line 67:    ";"
+Line 68:    "}"
+Line 70:    TYPE [int]
+Line 70:    IDENTIFIER [blabla]
+Line 70:    "["
+Line 70:    INT [100]
+Line 70:    "]"
+Line 70:    ";"
+Line 74:    TYPE [bool]
+Line 74:    IDENTIFIER [boolean_variable1]
+Line 74:    "="
+Line 74:    "("
+Line 74:    BOOL [true]
+Line 74:    ")"
+Line 74:    ";"
+Line 75:    TYPE [bool]
+Line 75:    IDENTIFIER [boolean_variable2]
+Line 75:    "="
+Line 75:    BOOL [false]
+Line 75:    ";"
+Line 80:    TYPE [void]
+Line 80:    IDENTIFIER [intersect]
+Line 80:    "("
+Line 80:    ")"
+Line 80:    "{"
+Line 81:    TYPE [vec3]
+Line 81:    IDENTIFIER [O]
+Line 81:    "="
+Line 81:    STATE [rt_RayOrigin]
+Line 81:    "-"
+Line 81:    IDENTIFIER [center]
+Line 81:    ";"
+Line 82:    TYPE [vec3]
+Line 82:    IDENTIFIER [D]
+Line 82:    "="
+Line 82:    STATE [rt_RayDirection]
+Line 82:    ";"
+Line 83:    TYPE [float]
+Line 83:    IDENTIFIER [A]
+Line 83:    "="
+Line 83:    IDENTIFIER [dot]
+Line 83:    "("
+Line 83:    IDENTIFIER [D]
+Line 83:    ","
+Line 83:    IDENTIFIER [D]
+Line 83:    ")"
+Line 83:    ";"
+Line 84:    TYPE [float]
+Line 84:    IDENTIFIER [B]
+Line 84:    "="
+Line 84:    IDENTIFIER [dot]
+Line 84:    "("
+Line 84:    IDENTIFIER [O]
+Line 84:    ","
+Line 84:    IDENTIFIER [D]
+Line 84:    ")"
+Line 84:    ";"
+Line 85:    TYPE [float]
+Line 85:    IDENTIFIER [C]
+Line 85:    "="
+Line 85:    IDENTIFIER [dot]
+Line 85:    "("
+Line 85:    IDENTIFIER [O]
+Line 85:    ","
+Line 85:    IDENTIFIER [O]
+Line 85:    ")"
+Line 85:    "-"
+Line 85:    IDENTIFIER [radius]
+Line 85:    "*"
+Line 85:    IDENTIFIER [radius]
+Line 85:    ";"
+Line 86:    TYPE [float]
+Line 86:    IDENTIFIER [disc]
+Line 86:    "="
+Line 86:    IDENTIFIER [B]
+Line 86:    "*"
+Line 86:    IDENTIFIER [B]
+Line 86:    "-"
+Line 86:    IDENTIFIER [A]
+Line 86:    "*"
+Line 86:    IDENTIFIER [C]
+Line 86:    ";"
+Line 87:    IF
+Line 87:    "("
+Line 87:    IDENTIFIER [disc]
+Line 87:    ">"
+Line 87:    FLOAT [0.000000]
+Line 87:    ")"
+Line 87:    "{"
+Line 88:    TYPE [float]
+Line 88:    IDENTIFIER [r]
+Line 88:    "="
+Line 88:    IDENTIFIER [sqrt]
+Line 88:    "("
+Line 88:    IDENTIFIER [disc]
+Line 88:    ")"
+Line 88:    ";"
+Line 89:    TYPE [float]
+Line 89:    IDENTIFIER [t0]
+Line 89:    "="
+Line 89:    "-"
+Line 89:    "("
+Line 89:    IDENTIFIER [r]
+Line 89:    "+"
+Line 89:    IDENTIFIER [B]
+Line 89:    ")"
+Line 89:    "/"
+Line 89:    IDENTIFIER [A]
+Line 89:    ";"
+Line 90:    IF
+Line 90:    "("
+Line 90:    IDENTIFIER [t0]
+Line 90:    ">"
+Line 90:    STATE [rt_Epsilon]
+Line 90:    ")"
+Line 90:    "{"
+Line 91:    IDENTIFIER [hit]
+Line 91:    "("
+Line 91:    IDENTIFIER [t0]
+Line 91:    ")"
+Line 91:    ";"
+Line 92:    "}"
+Line 92:    ELSE
+Line 92:    "{"
+Line 93:    TYPE [float]
+Line 93:    IDENTIFIER [t1]
+Line 93:    "="
+Line 93:    "("
+Line 93:    IDENTIFIER [r]
+Line 93:    "-"
+Line 93:    IDENTIFIER [B]
+Line 93:    ")"
+Line 93:    "/"
+Line 93:    IDENTIFIER [A]
+Line 93:    ";"
+Line 94:    IDENTIFIER [hit]
+Line 94:    "("
+Line 94:    IDENTIFIER [t1]
+Line 94:    ")"
+Line 94:    ";"
+Line 95:    "}"
+Line 96:    "}"
+Line 97:    "}"
+Line 99:    TYPE [void]
+Line 99:    IDENTIFIER [computeNormal]
+Line 99:    "("
+Line 99:    ")"
+Line 99:    "{"
+Line100:    STATE [rt_GeometricNormal]
+Line100:    "="
+Line100:    "("
+Line100:    STATE [rt_HitPoint]
+Line100:    "-"
+Line100:    IDENTIFIER [center]
+Line100:    ")"
+Line100:    "/"
+Line100:    IDENTIFIER [radius]
+Line100:    ";"
+Line101:    "}"
+Line103:    TYPE [void]
+Line103:    IDENTIFIER [computeBounds]
+Line103:    "("
+Line103:    ")"
+Line103:    "{"
+Line104:    STATE [rt_BoundMin]
+Line104:    "="
+Line104:    IDENTIFIER [center]
+Line104:    "-"
+Line104:    TYPE [vec3]
+Line104:    "("
+Line104:    IDENTIFIER [radius]
+Line104:    ")"
+Line104:    ";"
+Line105:    STATE [rt_BoundMax]
+Line105:    "="
+Line105:    IDENTIFIER [center]
+Line105:    "+"
+Line105:    TYPE [vec3]
+Line105:    "("
+Line105:    IDENTIFIER [radius]
+Line105:    ")"
+Line105:    ";"
+Line106:    "}"
