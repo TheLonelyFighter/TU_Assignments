@@ -1,0 +1,1 @@
+Accelerating C code performing a HEVC/H.265 16×16inverse transform using x86 intrinsics up to SSE 4.2 (see https://software.intel.com/sites/landingpage/IntrinsicsGuide/# ). The objective was to lower the execution time, which is machine dependent, as much as possible. 
